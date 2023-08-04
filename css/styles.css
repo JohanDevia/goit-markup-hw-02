@@ -1,15 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* roboto font-family: 'Roboto', sans-serif; */
+/* * { 
+  font-family: "Raleway", sans-serif;we
+}*/
+body {
+  font-family: Roboto, sans-serif;
+  color: black;
+}
+.main-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
 .navigations {
   list-style: none;
+
+  font-weight: 500;
+  font-size: 14px;
 }
 .links {
   list-style: none;
+
+  font-weight: 500;
+  font-size: 14px;
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+}
+.button-contact {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
 }
 .skills {
   list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+.skill-attention {
+  font-weight: 700;
+  font-size: 14px;
+}
+.skill-puntuality {
+  font-weight: 700;
+  font-size: 14px;
+}
+.skill-planning {
+  font-weight: 700;
+  font-size: 14px;
+}
+.skill-technology {
+  font-weight: 700;
+  font-size: 14px;
 }
 .businesses {
   list-style: none;
 }
 .teams {
   list-style: none;
+}
+.header-team {
+  font-weight: 500;
+  font-size: 16px;
+}
+.text-team {
+  font-weight: 400;
+  font-size: 16px;
+}
+.links-footer {
+  font-weight: 400;
+  font-size: 14px;
+}
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.header-project {
+  font-weight: 700;
+  font-size: 18px;
+}
+.tect-project {
+  font-weight: 400;
+  font-size: 16px;
 }

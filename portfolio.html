@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <main id="main_portfolio">
       <header>
-        <a href="./index.html">webstudio</a>
+        <a class="main-link" href="./index.html">webstudio</a>
         <nav>
           <section>
             <ul class="navigations">
@@ -28,11 +28,17 @@
       </header>
       <section id="filters">
         <ul>
-          <li><button type="button">Todo</button></li>
-          <li><button type="button">Sitios-web</button></li>
-          <li><button type="button">Aplicaciones</button></li>
-          <li><button type="button">Diseño</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li>
+            <button class="button-filter" type="button">Sitios-web</button>
+          </li>
+          <li><button class="button-filter" type="button">Todo</button></li>
+          <li>
+            <button class="button-filter" type="button">Aplicaciones</button>
+          </li>
+          <li><button class="button-filter" type="button">Diseño</button></li>
+          <li>
+            <button class="button-filter" type="button">Marketing</button>
+          </li>
         </ul>
       </section>
       <section id="projects">
@@ -42,91 +48,114 @@
               src="images/images-hw-2/laptop.jpg"
               alt="proyecto Tecnoduck"
               width="370"
-              height="294"/>
-            <h5>Tecnoduck</h5>
-            <p>Sitio-web</p>
+              height="294"
+            />
+            <h3 class="header-project">Tecnoduck</h3>
+            <p class="text-project">Sitio-web</p>
           </li>
           <li>
             <img
               src="images/images-hw-2/PósterdeNuevaOrleansvsEstrellaDorada.jpg"
               alt="Póster de Nueva Orleans vs Estrella Dorada"
               width="370"
-              height="294"/>
-            <h5>Póster de Nueva Orleans vs Estrella Dorada</h5>
-            <p>Diseño</p>
+              height="294"
+            />
+            <h3 class="header-project">
+              Póster de Nueva Orleans vs Estrella Dorada
+            </h3>
+            <p class="text-project">Diseño</p>
           </li>
           <li>
             <img
               src="images/images-hw-2/restauranteseafood.jpg"
               alt="logo de restaurante sea food"
               width="370"
-              height="294"/>
-            <h5>Restaurante de Mariscos</h5>
-            <p>Aplicaciones</p>
+              height="294"
+            />
+            <h3 class="header-project">Restaurante de Mariscos</h3>
+            <p class="text-project">Aplicaciones</p>
           </li>
           <li>
             <img
               src="images/images-hw-2/auriculares.jpg"
               alt="imagen de auriculares"
               width="370"
-              height="294"/>
-            <h5>Proyecto Prime</h5>
-            <p>Marketing</p>
+              height="294"
+            />
+            <h3 class="header-project">Proyecto Prime</h3>
+            <p class="text-project">Marketing</p>
           </li>
           <li>
             <img
               src="images/images-hw-2/cajas.jpg"
               alt="imagen de cajas"
               width="370"
-              height="294"/>
-            <h5>Proyecto Cajas</h5>
-            <p>Aplicaciones</p>
+              height="294"
+            />
+            <h3 class="header-project">Proyecto Cajas</h3>
+            <p class="text-project">Aplicaciones</p>
           </li>
           <li>
             <img
               src="images/images-hw-2/pantallacomputador.jpg"
               alt="imagen de la pantalla de un computador"
               width="370"
-              height="294"/>
-            <h5>La inspiración no tiene límites</h5>
-            <p>Sitio-web</p>
+              height="294"
+            />
+            <h3 class="header-project">La inspiración no tiene límites</h3>
+            <p class="text-project">Sitio-web</p>
           </li>
           <li>
             <img
               src="images/images-hw-2/revista.jpg"
               alt="imagen de una revista"
               width="370"
-              height="294"/>
-            <h5>Edición Limitada</h5>
-            <p>Diseño</p>
+              height="294"
+            />
+            <h3 class="header-project">Edición Limitada</h3>
+            <p class="text-project">Diseño</p>
           </li>
           <li>
-            <img src="images/images-hw-2/etiquetaderopa.jpg" 
-            alt="etiqueta de ropa" 
-            width="370" 
-            height="294"/>
-            <h5>Proyecto LAB</h5>
-            <p>Marketing</p>
+            <img
+              src="images/images-hw-2/etiquetaderopa.jpg"
+              alt="etiqueta de ropa"
+              width="370"
+              height="294"
+            />
+            <h3 class="header-project">Proyecto LAB</h3>
+            <p class="text-project">Marketing</p>
           </li>
           <li>
-            <img src="images/images-hw-2/laptopsobremesa.jpg" alt="imagen de una laptop" width="370" height="294">
-          <h5>Negocio en Crecimiento</h5>
-          <p>Aplicaciones</p>
+            <img
+              src="images/images-hw-2/laptopsobremesa.jpg"
+              alt="imagen de una laptop"
+              width="370"
+              height="294"
+            />
+            <h3 class="header-project">Negocio en Crecimiento</h3>
+            <p class="text-project">Aplicaciones</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
-          <address><a href="/index.html">webstudio</a>
-        </li>
-        <li><p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p></li>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
-      </ul>
+      <a class="main-link" href="./index.html">WebStudio</a>
+      <address>
+        <ul class="links-footer">
+          <li>
+            <a href="https://goo.gl/maps/MqcLZkt5R4HPUiu16" target="_blank">
+              Calz. Ticomán 500, Ciudad de <br />
+              México, CDMX, México.</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+525555296000">+52 55 5529 6000</a>
+          </li>
+        </ul>
       </address>
     </footer>
   </body>
 </html>
-
