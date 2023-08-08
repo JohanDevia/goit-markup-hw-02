@@ -25,6 +25,10 @@ body {
 .navigations:hover {
   color: rgba(33, 150, 243, 1);
 }
+.header-hidden {
+  visibility: hidden;
+  font-size: 0%;
+}
 .links {
   list-style: none;
   font-weight: 500;
