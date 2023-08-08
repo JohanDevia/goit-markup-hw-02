@@ -25,9 +25,6 @@ body {
 .navigations:hover {
   color: rgba(33, 150, 243, 1);
 }
-.navigations:focus {
-  color: rgba(33, 150, 243, 1);
-}
 .links {
   list-style: none;
   font-weight: 500;
